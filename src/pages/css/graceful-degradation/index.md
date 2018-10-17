@@ -3,11 +3,13 @@ title: Graceful Degradation
 ---
 ## Graceful Degradation
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/graceful-degradation/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+Graceful degradation is a design philosophy that centers around trying to build a modern web site/application that will work in the newest browsers, but fall back to an experience that while not as good still delivers essential content and functionality in older browsers. The degraded application may not be as nice to use for your site visitors, but it does still provide them with the basic functionality that they came to your site to use; things do not break for them.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+Polyfills can be used to build in missing features with JavaScript, but acceptable alternatives to features like styling and layout should be provided where possible, for example by using the CSS cascade, or HTML fallback behaviour.
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+It is a useful technique that allows Web developers to focus on developing the best possible websites while balancing the issues in those websites being accessed by multiple unknown user-agents. Progressive enhancement is related but different — often seen as going in the opposite direction to <a href='https://guide.freecodecamp.org/css/progressive-enhancement' target='_blank' rel='nofollow'>progressive enhancement</a>. In reality both approaches are valid and can often complement one another.
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+<a href='https://developer.mozilla.org/en-US/docs/Glossary/Graceful_degradation' target='_blank' rel='nofollow'>MDN Web Docs - Graceful degradation</a>
+
+<a href='https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement' target='_blank' rel='nofollow'>W3C Graceful degradation versus progressive enhancement</a>
